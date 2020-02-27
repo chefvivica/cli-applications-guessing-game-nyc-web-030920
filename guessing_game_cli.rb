@@ -10,7 +10,7 @@ def run_guessing_game
   puts "You guessed the correct number!"
  
  elsif
-  input == "exit"
+  input.downcase == "exit"
   puts "Goodbye!"
  
  else 
